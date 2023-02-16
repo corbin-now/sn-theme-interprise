@@ -28,7 +28,7 @@
   --chili-red: #e01300ff;
   --pumpkin: #ff740aff;
   --aureolin: #e6df0fff;
-  --malachite: #1dd73cff;
+  --forest-green: #0c971eff;
   --moonstone: #00a5b8ff;
   --blue-ncs: #0882c4ff;
   --majorelle-blue: #7e47ffff;
@@ -38,15 +38,15 @@
 
   /* Colours */
   --highlight-color: var(--moonstone);
-  --success-color: var(--malachite);
+  --success-color: var(--forest-green);
   --warning-color: var(--aureolin);
   --danger-color: var(--chili-red);
   --neutral-color: var(--paynes-gray);
   --border-color: var(--background-dark);
 
   --footer-bar-border-top-color: 0;
-  --sn-stylekit-info-color: var(--vivid-sky-blue);
-  --sn-stylekit-info-contrast-color: var(--foreground-dark);
+  --sn-stylekit-info-color: var(--moonstone);
+  --sn-stylekit-info-contrast-color: var(--white);
   --sn-stylekit-neutral-color: var(--neutral-color);
   --sn-stylekit-neutral-contrast-color: var(--background-medium);
   --sn-stylekit-success-color: var(--success-color);
@@ -81,6 +81,9 @@
   --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--foreground-medium);
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
+  
+  --sn-stylekit-passive-color-4-opacity-variant: #6973873d;
+  
   --sn-stylekit-monospace-font: 'Roboto Mono', monospace;
   --sn-stylekit-sans-serif-font: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
   --sn-stylekit-editor-font-family: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
@@ -94,7 +97,7 @@ html body {
 /* Rich Editor */
 /* Headings */
 .CodeMirror .cm-header-1, .gKsMQS h1 span {
-  color: var(--malachite);
+  color: var(--forest-green);
   font-size: 36px;
   font-weight: 700;
 }
