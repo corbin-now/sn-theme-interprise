@@ -23,13 +23,14 @@
   --persian-pink: #ff8cc4ff;
   --ash-gray: #a3b7b8ff;
   --white: #ffffffff;
+  --transparent: #ffffff00;
 
   /* Dark Colours */
   --chili-red: #e01300ff;
   --pumpkin: #ff740aff;
   --old-gold: #c2bd24ff;
   --forest-green: #0c971eff;
-  --moonstone: #00a5b8ff;
+  --teal: #00818fff;
   --blue-ncs: #0882c4ff;
   --majorelle-blue: #7e47ffff;
   --phlox: #ce47ffff;
@@ -37,7 +38,7 @@
   --paynes-gray: #597273ff;
 
   /* Colours */
-  --highlight-color: var(--moonstone);
+  --highlight-color: var(--teal);
   --success-color: var(--forest-green);
   --warning-color: var(--old-gold);
   --danger-color: var(--chili-red);
@@ -45,7 +46,7 @@
   --border-color: var(--background-dark);
 
   --footer-bar-border-top-color: 0;
-  --sn-stylekit-info-color: var(--moonstone);
+  --sn-stylekit-info-color: var(--teal);
   --sn-stylekit-info-contrast-color: var(--white);
   --sn-stylekit-neutral-color: var(--neutral-color);
   --sn-stylekit-neutral-contrast-color: var(--background-medium);
@@ -59,7 +60,7 @@
 
   --sn-stylekit-background-color: var(--background-light);
   --sn-stylekit-foreground-color: var(--foreground-medium);
-  --sn-stylekit-border-color: var(--border-color);
+  --sn-stylekit-border-color: var(--transparent);
   --sn-stylekit-paragraph-text-color: var(--foreground-light);
   --sn-stylekit-contrast-background-color: var(--background-dark);
   --sn-stylekit-contrast-foreground-color: var(--foreground-dark);
