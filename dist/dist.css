@@ -6,9 +6,9 @@
   --foreground-light: #1c1c1cff;
   --foreground-medium: #212121ff;
   --foreground-dark: #282828ff;
-  --background-dark: #90a3a7ff;
-  --background-medium: #878a8dff;
-  --background-light: #c4d7d9ff;
+  --background-dark: #829397ff;
+  --background-medium: #b3b7bbff;
+  --background-light: #d6e0e1ff;
 
 
   /* Light Colours */
@@ -27,7 +27,7 @@
   /* Dark Colours */
   --chili-red: #e01300ff;
   --pumpkin: #ff740aff;
-  --aureolin: #e6df0fff;
+  --old-gold: #c2bd24ff;
   --forest-green: #0c971eff;
   --moonstone: #00a5b8ff;
   --blue-ncs: #0882c4ff;
@@ -39,7 +39,7 @@
   /* Colours */
   --highlight-color: var(--moonstone);
   --success-color: var(--forest-green);
-  --warning-color: var(--aureolin);
+  --warning-color: var(--old-gold);
   --danger-color: var(--chili-red);
   --neutral-color: var(--paynes-gray);
   --border-color: var(--background-dark);
@@ -102,7 +102,7 @@ html body {
   font-weight: 700;
 }
 .CodeMirror .cm-header-2, .gKsMQS h2 span {
-  color: var(--aureolin);
+  color: var(--old-gold);
   font-size: 32px;
   font-weight: 700;
 }
