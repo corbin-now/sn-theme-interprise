@@ -3,12 +3,12 @@
 
 :root {
   /* Background & Text */
-  --foreground-light: #1c1c1cff;
-  --foreground-medium: #212121ff;
-  --foreground-dark: #282828ff;
-  --background-dark: #829397ff;
-  --background-medium: #b3b7bbff;
-  --background-light: #d6e0e1ff;
+    --foreground-dark: #1c1c1cff;
+    --foreground-medium: #212121ff;
+    --foreground-light: #282828ff;
+    --background-dark: #bbbcbdff;
+    --background-medium: #cfd0d1ff;
+    --background-light: #eaeeefff;
 
 
   /* Light Colours */
