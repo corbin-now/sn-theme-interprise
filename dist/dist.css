@@ -128,6 +128,11 @@ html body {
   font-size: 18px;
 }
 
+/* Bold */
+.jrQhgG b, .jrQhgG strong {
+    font-weight: 700;
+}
+
 /* Checkboxes */
 .jrQhgG ul.checkbox_list li input {
   margin: 0.0em 0.5em 0px 0px;
