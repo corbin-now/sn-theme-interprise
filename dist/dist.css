@@ -146,3 +146,37 @@ html body {
 .editor-tags:hover {
   opacity: 1;
 }
+
+.gKsMQS h1:not(.placeholder)::before, 
+.gKsMQS h2:not(.placeholder)::before, 
+.gKsMQS h3:not(.placeholder)::before, 
+.gKsMQS h4:not(.placeholder)::before, 
+.gKsMQS h5:not(.placeholder)::before, 
+.gKsMQS h6:not(.placeholder)::before {
+  display: none;
+}
+
+.editor-toolbar,
+.editor-toolbar.fullscreen {
+  height: 1px;
+  opacity: 0;
+  padding-top: 0;
+}
+
+.editor-toolbar:hover {
+  height: 50px;
+  opacity: 1;
+}
+
+.editor-tags:hover {
+  opacity: 1;
+}
+
+.editor-toolbar button {
+  color: var(--neutral-color) !important;
+}
+
+#editor-title-bar #save-status {
+  top: 50px;
+  display: none;
+}
